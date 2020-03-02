@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace App\Controllers;
+
+class $1 extends BaseController
+{
+	public function index()
+	{
+		
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cont</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
