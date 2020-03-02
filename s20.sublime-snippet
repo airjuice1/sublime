@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+col s$1m$1l$1xl$1col-lg-$1col-md-$1col-sm-$1col-xs-$1$2
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sss</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

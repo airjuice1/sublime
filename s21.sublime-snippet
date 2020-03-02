@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+import React, { Fragment } from 'react';
+
+export default ({}) => {
+	return (<Fragment>
+		$2
+	</Fragment>);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reee</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

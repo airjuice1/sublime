@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace App\Models;
+
+use CodeIgniter\Model;
+
+class $1 extends Model
+{
+	protected \$table 				= '';
+	protected \$primaryKey 			= '';
+
+	protected \$returnType 			= 'array';
+	protected \$useSoftDeletes 		= false;
+
+	protected \$allowedFields 		= [];
+
+	protected \$useTimestamps 		= false;
+	protected \$createdField     	= 'created_at';
+	protected \$updatedField     	= 'updated_at';
+	protected \$deletedField     	= 'deleted_at';
+
+	protected \$validationRules      = [];
+	protected \$validationMessages   = [];
+	protected \$skipValidation       = false;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
