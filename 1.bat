@@ -1,0 +1,1 @@
+xcopy /r /d /i /s /y /EXCLUDE:excludedfileslist.txt .\*.* "C:\Users\Juice\AppData\Roaming\Sublime Text 3\Packages\User"

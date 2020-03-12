@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+`$1`
+-- datetime
+-- varhar(255)
+-- text
+-- tinyint unsigned
+-- smallint unsigned
+-- int unsigned
+-- decimal(10,2) unsigned
+-- not null
+-- default
+comment '',
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sqlr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -3,13 +3,24 @@
 drop table if exists `$1s`;
 create table `$1s`
 (
-	`$1_id` 							int unsigned not null auto_increment 										comment '',
-
+	`$1_id`
+	int unsigned 
+	not null
+	auto_increment
+	comment '',
 	
 	primary key(`$1_id`)
-) engine = 'innodb';
+)
+engine = 'innodb',
+comment = '';
 
--- insert into `$1s` values();
+/*
+insert into `$1s`
+(
+)
+values
+();
+*/
 
 select * from `$1s`;
 
