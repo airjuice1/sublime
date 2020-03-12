@@ -12,6 +12,11 @@ CREATE TABLE `$1s`
 	
 	-- CONSTRAINT ix UNIQUE KEY(``),
 	-- INDEX ixName (``),
+
+	-- INDEX ixNameForFK(``) -- MUST BE FOR FK!
+	-- CONSTRAINT fk FOREIGN KEY(`col_name`) REFFERENCE `table_name`(`col_name`),
+
+
 	CONSTRAINT pkId PRIMARY KEY(`$1_id`)
 )
 ENGINE = 'INNODB',
