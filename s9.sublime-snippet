@@ -1,28 +1,22 @@
 <snippet>
 	<content><![CDATA[
-drop table if exists `$1s`;
-create table `$1s`
+-- ====================================================
+DROP TABLE IF EXISTS `$1s`;
+CREATE TABLE `$1s`
 (
 	`$1_id`
-	int unsigned 
-	not null
-	auto_increment
-	comment '',
+	INT UNSIGNED
+	NOT NULL
+	AUTO_INCREMENT
+	COMMENT '',
 	
-	primary key(`$1_id`)
+	-- CONSTRAINT ix UNIQUE KEY(``),
+	-- INDEX ixName (``),
+	CONSTRAINT pkId PRIMARY KEY(`$1_id`)
 )
-engine = 'innodb',
-comment = '';
-
-/*
-insert into `$1s`
-(
-)
-values
-();
-*/
-
-select * from `$1s`;
+ENGINE = 'INNODB',
+COMMENT = '';
+-- ====================================================
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

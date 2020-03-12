@@ -1,19 +1,19 @@
 <snippet>
 	<content><![CDATA[
 `$1`
--- datetime
--- varchar(255)
--- text
--- tinyint unsigned
--- smallint unsigned
--- int unsigned
--- decimal(10,2) unsigned
--- not null
--- default
+-- DATETIME
+-- VARCHAR(255)
+-- TEXT
+-- TINYINT UNSIGNED
+-- SMALLINT UNSIGNED
+-- INT UNSIGNED
+-- DECIMAL(10,2) UNSIGNED
+-- NOT NULL
+-- DEFAULT
 -- `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
 -- `updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP
-comment '',
-
+-- UNIQUE
+COMMENT '',
 $2
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
