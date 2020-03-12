@@ -10,9 +10,11 @@
 -- decimal(10,2) unsigned
 -- not null
 -- default
+-- `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
+-- `updated_at` DATETIME ON UPDATE CURRENT_TIMESTAMP
 comment '',
 
-
+$2
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>sqlr</tabTrigger>
