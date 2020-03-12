@@ -2,7 +2,7 @@
 	<content><![CDATA[
 `$1`
 -- datetime
--- varhar(255)
+-- varchar(255)
 -- text
 -- tinyint unsigned
 -- smallint unsigned
