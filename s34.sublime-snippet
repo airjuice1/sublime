@@ -8,12 +8,12 @@ use CodeIgniter\Filters\FilterInterface;
 
 class $1 implements FilterInterface
 {
-    public function before(RequestInterface $request)
+    public function before(RequestInterface \$request)
     {
         // Do something here
     }
     
-    public function after(RequestInterface $request, ResponseInterface $response)
+    public function after(RequestInterface \$request, ResponseInterface \$response)
     {
         // Do something here
     }
