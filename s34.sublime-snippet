@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace App\Filters;
+
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\HTTP\ResponseInterface;
+use CodeIgniter\Filters\FilterInterface;
+
+class $1 implements FilterInterface
+{
+    public function before(RequestInterface $request)
+    {
+        // Do something here
+    }
+    
+    public function after(RequestInterface $request, ResponseInterface $response)
+    {
+        // Do something here
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fil</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

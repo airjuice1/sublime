@@ -2,8 +2,12 @@
 	<content><![CDATA[
 <?php namespace App\Controllers;
 
+use CodeIgniter\API\ResponseTrait;
+
 class $1 extends BaseController
 {
+	use ResponseTrait;
+	
 	public function index()
 	{
 		
