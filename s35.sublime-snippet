@@ -2,16 +2,40 @@
 	<content><![CDATA[
 <?php namespace App\Controllers;
 
+use CodeIgniter\API\ResponseTrait;
+
 class $1 extends BaseController
 {
-	public function index()
+	use ResponseTrait;
+
+	public function listAll()
+	{
+
+	}
+
+	public function show(\$id)
+	{
+
+	}
+
+	public function create()
 	{
 		
+	}
+
+	public function update(\$id)
+	{
+
+	}
+
+	public function delete(\$id)
+	{
+
 	}
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cont</tabTrigger>
+	<tabTrigger>res</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
