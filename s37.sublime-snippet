@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$routes->get('$1',                 '$1::listAll');
+\$routes->get('$1/(:num)',          '$1::show/\$1');
+\$routes->post('$1',                '$1::create');
+\$routes->put('$1/(:num)',          '$1::update/\$1');
+\$routes->delete('$1/(:num)',       '$1::delete/\$1');                
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rout</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
