@@ -13,7 +13,7 @@ class $1 extends BaseController
 
 	}
 
-	public function show(\$id)
+	public function show(\$id = null)
 	{
 
 	}
@@ -23,12 +23,12 @@ class $1 extends BaseController
 		
 	}
 
-	public function update(\$id)
+	public function update(\$id = null)
 	{
 
 	}
 
-	public function delete(\$id)
+	public function delete(\$id = null)
 	{
 
 	}
