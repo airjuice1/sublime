@@ -1,0 +1,56 @@
+<snippet>
+<content><![CDATA[
+// protected \$DBGroup = 'tests';
+protected \$fields = [];
+protected \$table = '';
+protected \$primary = '';
+
+public function up()
+{
+	\$this->db->disableForeignKeyChecks();
+
+	\$this->fields = 
+	[
+		\$this->primary => 
+		[
+			'type'           => 'int',
+			'constraint'     => 10,
+			'unsigned'       => true,
+			'auto_increment' => true,
+			'null'			 => false,
+		],
+		'field' =>
+		[
+			'type'           => 'int',
+		    'constraint'     => 10,
+			'unsigned'       => true,
+		    'null'			 => true,
+		],
+		'name' =>
+		[
+			'type'           => 'varchar',
+		    'constraint'     => '255',
+		    'null'			 => true,
+		],
+	];
+	
+	\$this->forge->addField(\$this->fields);
+	// \$this->forge->addUniqueKey('');
+	\$this->forge->addKey(\$this->primary, true);
+	\$this->forge->createTable(\$this->table);
+
+	\$this->db->enableForeignKeyChecks();
+}
+
+//--------------------------------------------------------------------
+
+public function down()
+{
+	\$this->forge->dropTable(\$this->table);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mig</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
