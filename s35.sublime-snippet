@@ -2,35 +2,44 @@
 	<content><![CDATA[
 <?php namespace App\Controllers;
 
+use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
+use CodeIgniter\HTTP\ResponseInterface;
+use Config\Services;
 
-class $1 extends BaseController
+class $1 extends ResourceController
 {
 	use ResponseTrait;
 
+	private \$response_code = ResponseInterface::HTTP_OK;
+
 	public function index()
 	{
-
+		return \$this->respond([], \$this->response_code);
 	}
 
 	public function show(\$id = null)
 	{
-
+		\$this->response_code = ResponseInterface::HTTP_FORBIDDEN;
+		return \$this->respond([], \$this->response_code);
 	}
 
 	public function create()
 	{
-		
+		\$this->response_code = ResponseInterface::HTTP_FORBIDDEN;
+		return \$this->respond([], \$this->response_code);	
 	}
 
 	public function update(\$id = null)
 	{
-
+		\$this->response_code = ResponseInterface::HTTP_FORBIDDEN;
+		return \$this->respond([], \$this->response_code);
 	}
 
 	public function delete(\$id = null)
 	{
-
+		\$this->response_code = ResponseInterface::HTTP_FORBIDDEN;
+		return \$this->respond([], \$this->response_code);
 	}
 }
 ]]></content>
