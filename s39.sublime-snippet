@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+<?php namespace App\Database\Seeds;
+
+class $1 extends \CodeIgniter\Database\Seeder
+{
+    public function run()
+    {
+        \$data = 
+        [
+			'field1' => 'foo',			
+        ];
+        
+        \$this->db->table('$2')->insert(\$data);
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>seed</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
