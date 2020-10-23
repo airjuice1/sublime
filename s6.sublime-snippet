@@ -3,6 +3,7 @@
 echo '<pre>';
 print_r($1);
 echo '</pre>';
+// continue;
 exit();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
