@@ -5,9 +5,10 @@
 	],
 	"installed_packages":
 	[
-		"Emmet",		
+		"Emmet",
 		"JSX",
 		"Package Control",
 		"SFTP",
+		"Terminal"
 	]
 }
