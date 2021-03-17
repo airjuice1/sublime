@@ -1,0 +1,4 @@
+[
+	{ "keys": ["alt+ctrl+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+ctrl+down"], "command": "select_lines", "args": {"forward": true} },
+]
